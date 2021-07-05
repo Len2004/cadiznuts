@@ -1,0 +1,157 @@
+.clubnaam { 
+    width:100%;
+    font-size: 4rem;
+    text-align: center;
+    height: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.helebanner {
+    background-image: url("../images/My\ Post\ \(1\).png");
+}
+.helepaginaselectie {
+   border: 1px solid black;
+   background-image: url("../images/unnamed.jpg");
+   height: auto;
+}
+
+.helepaginashirtverkoop {
+    border: 1px solid black;
+    background-image: url("../images/unnamed.jpg");
+    height: 100%;
+}
+.helepaginahome {
+    background-image: url("../images/unnamed.jpg");
+    border: 1px solid black;
+    height: 100%;
+
+}
+.helepaginauitslagen {
+    border: 1px solid black;
+   background-image: url("../images/unnamed.jpg");
+
+
+}
+.helepaginastatistieken {
+   border: 1px solid black;
+   background-image: url("../images/unnamed.jpg");
+  
+}
+.button {
+    text-align: center;
+    font-size: 2rem;
+    width: 20%;
+    flex-wrap: nowrap;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}   
+nav { 
+    display: flex;
+}
+a { 
+    color: black;
+    text-decoration: white;
+}
+
+#teamfoto {
+    height: 500px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px ;
+    margin-bottom: 40px;
+    border: 1px solid black;
+
+}
+.spelerfotos {
+display: flex;
+height: 300px;
+width: 250px;
+border: 0.5px solid black;
+
+}
+.spelerposities {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.90rem;
+    margin-left: 50px;
+
+}
+
+.grotecontainerselectie{
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    justify-content: left;
+    
+    
+}
+.grotecontainershirtverkoop {
+    display: inline-flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: left;
+    width: 49.5%;
+
+}
+.grotecontaineruitslagen { 
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: left;
+    
+
+}
+
+.grotecontainerstatistieken { 
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: left;
+    
+    
+
+}
+
+.statistieken { 
+    margin-left: 15px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.90rem;
+
+}
+.statistiekfotos {
+    height: 300px;
+    width: 500px;
+    margin-left: 50px;
+}
+.tenuefotos{
+    display: flex;
+    height: 450px;
+    width: 350px;
+}
+.tenueinfo {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.90rem;
+    margin-left: 50px;
+}
+/*@media only screen and (max-width: 480px) {
+    .helepaginahome {width: 60%;}
+}*/
+
+.wedstrijden { 
+margin-left: 15px;
+text-align: left;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 0.90rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+#wed1 {
+    color:darkgreen;
+}
